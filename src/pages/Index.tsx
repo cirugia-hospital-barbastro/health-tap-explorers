@@ -1,13 +1,19 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import MedicalPoster from "@/components/MedicalPoster";
+import { Helmet } from "react-helmet";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <>
+      <Helmet>
+        <title>Cuidados Pre-Post Cirugía General | Póster Interactivo Médico</title>
+        <meta 
+          name="description" 
+          content="Póster interactivo con información médica sobre cuidados pre y post operatorios en cirugía general. Incluye protocolos de tiroidectomía, colecistectomía, apendicectomía y más procedimientos quirúrgicos." 
+        />
+        <meta name="keywords" content="cirugía general, cuidados preoperatorios, cuidados postoperatorios, enfermería quirúrgica, protocolos médicos" />
+      </Helmet>
+      <MedicalPoster />
+    </>
   );
 };
 
