@@ -7,6 +7,7 @@ interface InteractivePosterSectionProps {
   content: string[];
   variant?: "pink" | "green" | "blue";
   className?: string;
+  icon?: string;
 }
 
 const InteractivePosterSection = ({
@@ -14,6 +15,7 @@ const InteractivePosterSection = ({
   content,
   variant = "green",
   className,
+  icon,
 }: InteractivePosterSectionProps) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -35,9 +37,18 @@ const InteractivePosterSection = ({
       onClick={() => setIsExpanded(!isExpanded)}
     >
       <div className="flex items-center justify-between gap-3">
-        <h3 className="text-base md:text-lg font-bold text-foreground uppercase tracking-wide">
-          {title}
-        </h3>
+        <div className="flex items-center gap-3">
+          {icon && (
+            <img 
+              src={icon} 
+              alt="" 
+              className="w-8 h-8 md:w-10 md:h-10 object-contain flex-shrink-0" 
+            />
+          )}
+          <h3 className="text-base md:text-lg font-bold text-foreground uppercase tracking-wide">
+            {title}
+          </h3>
+        </div>
         <ChevronDown
           className={cn(
             "w-5 h-5 text-foreground transition-transform duration-300 flex-shrink-0",
