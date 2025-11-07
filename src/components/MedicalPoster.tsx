@@ -2,6 +2,7 @@ import InteractivePosterSection from "./InteractivePosterSection";
 import anatomicalIllustration from "@/assets/anatomical-illustration.png";
 import checkListIcon from "@/assets/check-list-icon.png";
 import thyroidIcon from "@/assets/thyroid-icon.jpg";
+import breastIcon from "@/assets/breast-icon.jpg";
 
 const MedicalPoster = () => {
   const preAdmissionData = {
@@ -60,12 +61,13 @@ const MedicalPoster = () => {
       icon: thyroidIcon,
     },
     {
-      title: "RAMA - VP TRONCO CONTRALATERAL",
+      title: "CIRUGÍA DE MAMA",
       content: [
         "Antibioterapia a la llamada de quirófano",
         "Vigilancia estrecha de la zona intervenida",
         "Control de sangrado",
       ],
+      icon: breastIcon,
     },
     {
       title: "COLECISTECTOMÍA",
