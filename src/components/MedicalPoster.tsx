@@ -5,12 +5,14 @@ const MedicalPoster = () => {
   const preAdmissionData = {
     title: "DÍA DEL INGRESO",
     content: [
-      "Valoración de enfermería",
-      "Toma de constantes",
-      "Información sobre procedimientos y cuidados necesarios",
-      "Teléfono de persona de contacto",
-      "Entrega de folleto informativo Informe de Evaluación Pre-anestésica",
-      "Se realizará una evaluación hemodinámico (pulsera) para identificar al paciente (pulsera naranja o amarilla según índice)",
+      "Valoración de enfermería.",
+      "Comprobación de pulsera identificativa, alergias, antecedentes personales, teléfono de contacto.",
+      "Toma de constantes.",
+      "Entrega del folleto informativo.",
+      "En caso de cirugía de colon, entrega del folleto sobre ejercicios de recuperación abdominal.",
+      "Comprobación de órdenes pre-quirúrgicas en el Informe de Evaluación Pre-anestésica.",
+      "Verificar reserva de hemoderivados si es necesario (pulsera).",
+      "Firma de vía clínica y órdenes de tratamiento por el equipo médico.",
     ],
   };
 
