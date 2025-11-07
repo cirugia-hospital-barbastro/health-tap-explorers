@@ -13,6 +13,10 @@ const MedicalPoster = () => {
       "Comprobación de órdenes pre-quirúrgicas en el Informe de Evaluación Pre-anestésica.",
       "Verificar reserva de hemoderivados si es necesario (pulsera).",
       "Firma de vía clínica y órdenes de tratamiento por el equipo médico.",
+      "Programar la dieta:",
+      "  • Dieta habitual hasta 6-8 horas antes de la intervención.",
+      "  • En cirugía de colon, programar dieta SIN RESIDUOS hasta 6-8 horas antes de la intervención y administración de laxantes y antibióticos vía oral en función del tratamiento prescrito.",
+      "Si se programa tratamiento con hbpm NO administrarla en las 12 horas previas a la intervención.",
     ],
   };
 
