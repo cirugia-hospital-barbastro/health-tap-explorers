@@ -1,6 +1,7 @@
 import InteractivePosterSection from "./InteractivePosterSection";
 import anatomicalIllustration from "@/assets/anatomical-illustration.png";
 import checkListIcon from "@/assets/check-list-icon.png";
+import thyroidIcon from "@/assets/thyroid-icon.jpg";
 
 const MedicalPoster = () => {
   const preAdmissionData = {
@@ -56,6 +57,7 @@ const MedicalPoster = () => {
         "Monitorización postoperatoria de calcio y hormona paratiroidea",
         "Control de voz y signos de hematoma cervical",
       ],
+      icon: thyroidIcon,
     },
     {
       title: "RAMA - VP TRONCO CONTRALATERAL",
@@ -180,6 +182,7 @@ const MedicalPoster = () => {
                 title={procedure.title}
                 content={procedure.content}
                 variant="green"
+                icon={procedure.icon}
               />
             ))}
           </div>
@@ -203,6 +206,7 @@ const MedicalPoster = () => {
                 title={procedure.title}
                 content={procedure.content}
                 variant="green"
+                icon={procedure.icon}
               />
             ))}
           </div>
