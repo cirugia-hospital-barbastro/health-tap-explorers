@@ -174,8 +174,8 @@ const MedicalPoster = () => {
           />
         </div>
 
-        {/* Main Content with Anatomical Illustration */}
-        <div className="grid lg:grid-cols-3 gap-6 mb-8 md:mb-12">
+        {/* Main Content - Procedures */}
+        <div className="grid md:grid-cols-2 gap-6 mb-8 md:mb-12">
           {/* Left Column */}
           <div className="space-y-6">
             {procedures.slice(0, 5).map((procedure, index) => (
@@ -187,17 +187,6 @@ const MedicalPoster = () => {
                 icon={procedure.icon}
               />
             ))}
-          </div>
-
-          {/* Center - Anatomical Illustration */}
-          <div className="flex items-center justify-center lg:col-span-1">
-            <div className="relative w-full max-w-md aspect-[2/3] rounded-3xl overflow-hidden shadow-[var(--shadow-soft)] bg-gradient-to-b from-primary/10 to-primary/5">
-              <img
-                src={anatomicalIllustration}
-                alt="Ilustración anatómica del sistema digestivo"
-                className="w-full h-full object-cover"
-              />
-            </div>
           </div>
 
           {/* Right Column */}
