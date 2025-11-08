@@ -107,12 +107,15 @@ const MedicalPoster = () => {
       ],
     },
     {
-      title: "HERNIA/EVENTRACIÓN",
+      title: "HERNIOPLASTIA-EVENTROPLASTIA",
       content: [
-        "Si hernia Inguinal/Recurrente, TCO, estudio VP en bola",
-        "En cirugía abierta, estudio VP en bola contralateral",
-        "Si hernia estrangulada, antibioterapia",
-        "Control del sitio quirúrgico",
+        "CIRUGÍA ABIERTA:",
+        "Canalizar vía venosa en el lado contrario a la intervención.",
+        "",
+        "CIRUGÍA LAPAROSCÓPICA (TEP - ETEP):",
+        "Canalizar vía venosa en el mismo lado de la intervención.",
+        "",
+        "Administración de antibiótico a la llamada de quirófano (según tratamiento prescrito).",
       ],
     },
     {
