@@ -26,14 +26,14 @@ const MedicalPoster = () => {
   const interventionDayData = {
     title: "DÍA DE LA INTERVENCIÓN",
     content: [
-      "Higiene general con jabón antiséptico",
-      "Retirada de prendas de vestir",
-      "Retirada de joyas, piercings",
-      "Retirada de objetos metálicos",
-      "Ayunas desde medianoche, excepto fármacos con un sorbo de agua indicados (ni agua a partir de las 8h)",
-      "El cirujano os dará indicaciones concretas durante una visita la tarde anterior al ingreso, o si ya se encuentra ingresado o si recomendará antibioterapia pre o post ingreso",
-      "Completar las listas de verificación de seguridad del paciente previo ingreso",
-      "Completar formulario Check-list",
+      "Higiene general con esponja de clorhexidina.",
+      "Si se ha programado cirugía laparoscópica, limpieza del ombligo con alcohol.",
+      "Rasurado si es necesario con maquinilla eléctrica.",
+      "Retirada de joyas, prótesis dentales, audífonos, gafas, piercings, sensores de glucemia, …",
+      "Administrar premedicación, si procede.",
+      "Toma de constantes y registro antes del traslado a unidad quirúrgica (TA, FC, Sat O2, Tª y glucemia capilar en pacientes diabéticos)",
+      "Canalizar vía periférica (preferentemente 18G), según procedimiento con perfusión de Isofundin® de mantenimiento.",
+      "Completar formulario Check-list quirúrgico.",
     ],
   };
 
