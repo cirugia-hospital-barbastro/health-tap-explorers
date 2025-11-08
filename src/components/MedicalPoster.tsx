@@ -3,6 +3,7 @@ import anatomicalIllustration from "@/assets/anatomical-illustration.png";
 import checkListIcon from "@/assets/check-list-icon.png";
 import thyroidIcon from "@/assets/thyroid-icon.jpg";
 import breastIcon from "@/assets/breast-icon.jpg";
+import calendarIcon from "@/assets/calendar-icon.jpg";
 
 const MedicalPoster = () => {
   const preAdmissionData = {
@@ -171,6 +172,7 @@ const MedicalPoster = () => {
             title={interventionDayData.title}
             content={interventionDayData.content}
             variant="pink"
+            icon={calendarIcon}
           />
         </div>
 
