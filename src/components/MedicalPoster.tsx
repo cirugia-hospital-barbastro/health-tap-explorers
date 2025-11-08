@@ -71,9 +71,13 @@ const MedicalPoster = () => {
     {
       title: "CIRUGÍA DE MAMA",
       content: [
-        "Antibioterapia a la llamada de quirófano",
-        "Vigilancia estrecha de la zona intervenida",
-        "Control de sangrado",
+        "ANTES DE LA INTERVENCIÓN:",
+        "Canalizar vía venosa en lado contrario al de la intervención.",
+        "Administración de antibiótico a la llamada de quirófano (según tratamiento prescrito).",
+        "",
+        "DESPUÉS DE LA INTERVENCIÓN:",
+        "No tomar constantes, realizar extracciones ni maniobras invasivas en el brazo de la mama intervenida.",
+        "Mantener sujetador post-quirúrgico",
       ],
       icon: breastIcon,
     },
