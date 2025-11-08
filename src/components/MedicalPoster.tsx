@@ -97,10 +97,13 @@ const MedicalPoster = () => {
     {
       title: "APENDICECTOMÍA",
       content: [
-        "Intervención urgente o programada",
-        "Antibioterapia según protocolo",
-        "Vigilancia de signos de infección",
-        "Iniciar tolerancia oral progresiva",
+        "CIRUGÍA ABIERTA:",
+        "Canalizar vía venosa en brazo izquierdo.",
+        "",
+        "CIRUGÍA LAPAROSCÓPICA:",
+        "Canalizar vía periférica en brazo derecho.",
+        "",
+        "Administración de antibiótico a la llamada de quirófano (según tratamiento prescrito)",
       ],
     },
     {
