@@ -4,6 +4,7 @@ import checkListIcon from "@/assets/check-list-icon.png";
 import thyroidIcon from "@/assets/thyroid-icon.jpg";
 import breastIcon from "@/assets/breast-icon.jpg";
 import calendarIcon from "@/assets/calendar-icon.jpg";
+import gallbladderIcon from "@/assets/gallbladder-icon.jpg";
 
 const MedicalPoster = () => {
   const preAdmissionData = {
@@ -91,6 +92,7 @@ const MedicalPoster = () => {
         "DESPUÉS DE LA INTERVENCIÓN:",
         "Monitorización de la diuresis durante las primeras 24 horas",
       ],
+      icon: gallbladderIcon,
     },
     {
       title: "APENDICECTOMÍA",
