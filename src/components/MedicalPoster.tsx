@@ -84,10 +84,12 @@ const MedicalPoster = () => {
     {
       title: "COLECISTECTOMÍA",
       content: [
-        "VP en EE España",
-        "Antibioterapia profiláctica a la llamada de quirófano",
-        "Control del sitio quirúrgico",
-        "Movilización precoz",
+        "ANTES DE LA INTERVENCIÓN:",
+        "Canalizar vía venosa en brazo izquierdo.",
+        "Administración de antibiótico a la llamada de quirófano (según tratamiento prescrito).",
+        "",
+        "DESPUÉS DE LA INTERVENCIÓN:",
+        "Monitorización de la diuresis durante las primeras 24 horas",
       ],
     },
     {
