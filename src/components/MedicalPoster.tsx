@@ -5,7 +5,6 @@ import thyroidIcon from "@/assets/thyroid-icon.jpg";
 import breastIcon from "@/assets/breast-icon.jpg";
 import calendarIcon from "@/assets/calendar-icon.jpg";
 import gallbladderIcon from "@/assets/gallbladder-icon.jpg";
-import homeDischargeIcon from "@/assets/home-discharge-icon.jpg";
 
 const MedicalPoster = () => {
   const preAdmissionData = {
@@ -138,12 +137,20 @@ const MedicalPoster = () => {
       ],
     },
     {
-      title: "CIRUGÍA COLORRECTAL",
+      title: "CIRUGÍA DE COLON",
       content: [
-        "Preparación intestinal según protocolo",
-        "Antibioterapia profiláctica",
-        "Vestido antiembólico",
-        "Medias neumáticas (medias con inyección de aire en rect)",
+        "ANTES DE LA INTERVENCIÓN:",
+        "Canalizar vía venosa.",
+        "En brazo izquierdo de forma general.",
+        "En brazo derecho en hemicolectomía derecha.",
+        "Colocar medias antitrombóticas.",
+        "Elásticas de forma general.",
+        "Neumáticas en resección anterior de recto.",
+        "Administración de antibiótico a la llamada de quirófano (según tratamiento prescrito).",
+        "",
+        "DESPUÉS DE LA INTERVENCIÓN:",
+        "Control de diuresis cada 6 horas.",
+        "Si se realiza COLOSTOMÍA/ILEOSTOMÍA: vigilancia e inicio de cuidados según protocolo",
       ],
     },
     {
@@ -246,12 +253,11 @@ const MedicalPoster = () => {
             "• HERNIOPLASTIA-EVENTROPLASTIA",
             "• ESPLENECTOMÍA",
             "• CIRUGÍA GÁSTRICA",
-            "• CIRUGÍA COLORRECTAL",
+            "• CIRUGÍA DE COLON",
             "• CIRUGÍA ANAL",
             "• TOMA DE MUESTRAS PARA BIOPSIA",
           ]}
           variant="pink"
-          icon={homeDischargeIcon}
           className="mb-8"
         />
 
