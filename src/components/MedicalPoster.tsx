@@ -40,14 +40,24 @@ const MedicalPoster = () => {
   };
 
   const postOperativeData = {
-    title: "ACTUACIONES EN EL POST-OPERATORIO INMEDIATO",
+    title: "LLEGADA DE U.R.P.A.",
     content: [
-      "Toma de constantes vitales, RVM",
-      "Vigilancia de náuseas",
-      "Control de medicación administrada vía URPA",
-      "Control de drenajes (comprobar la validez de la URPA)",
-      "Valorar primera micción, si no micción espontánea en las primeras 6-8 horas consultar con anestesia de guardia",
-      "Iniciar tolerancia VO y movilización según orden médica, comunicando con TOBE",
+      "Toma de constantes vitales, EVA.",
+      "Vigilancia de apósitos. Si está ligeramente manchado, marcar con rotulador y vigilar progresión.",
+      "Control de drenajes (cantidad, aspecto, vacío del receptal), SNG y ostomías si se da el caso. Ccomprobar lo cuantificado en URPA.",
+      "Control de medicación administrada en URPA (horario y dosis de la última administración) y del tratamiento post-operatorio pautado.",
+      "Vigilancia de la primera micción. Si el paciente no realiza micción espontánea en las primeras 6-8 horas, consultar a cirujanos de guardia para sondaje vesical.",
+      "Iniciar tolerancia VO y movilización según orden médica, comunicación con TCAE y registro de horarios en díptico informativo.",
+      "Si se indica tratamiento con hbpm. NO administrar hasta pasadas 12 horas de la intervención.",
+      "Si porta ELASTÓMERO, mantener oxigenoterapia durante su curso.",
+      "Si porta CATÉTER EPIDURAL (consultar protocolo específico):",
+      "Comprobar sellado del apósito y fijación correcta.",
+      "NUNCA administrar otra medicación por esta vía.",
+      "Comprobar correcta programación de bomba de perfusión continua.",
+      "Vigilar pérdida de movilidad de extremidades o sensación de pesadez excesiva.",
+      "No manipular el catéter.",
+      "En caso de mal control del dolor o incidencias con el catéter, avisar al anestesista de guardia.",
+      "Mantener oxigenoterapia durante su curso.",
     ],
   };
 
