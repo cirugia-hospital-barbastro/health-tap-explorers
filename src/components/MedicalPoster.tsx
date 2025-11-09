@@ -121,10 +121,13 @@ const MedicalPoster = () => {
     {
       title: "ESPLENECTOMÍA",
       content: [
-        "Extirpación del bazo",
-        "Vacunación previa recomendada",
-        "Control hematológico postoperatorio",
-        "Vigilancia de complicaciones infecciosas",
+        "ANTES DE LA INTERVENCIÓN:",
+        "Canalizar vía venosa en brazo izquierdo.",
+        "Colocar medias antitrombóticas elásticas.",
+        "Administración de antibiótico a la llamada de quirófano (según tratamiento prescrito).",
+        "",
+        "DESPUÉS DE LA INTERVENCIÓN:",
+        "Control de diuresis",
       ],
     },
     {
