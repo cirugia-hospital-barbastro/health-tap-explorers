@@ -157,12 +157,10 @@ const MedicalPoster = () => {
       ],
     },
     {
-      title: "CIRUGÍA ANAL",
+      title: "CIRUGÍA ANO-RECTAL",
       content: [
-        "Procedimientos proctológicos diversos",
-        "Control del dolor postoperatorio",
-        "Cuidados locales específicos",
-        "Dieta y medidas de higiene",
+        "Canalizar vía venosa. El brazo donde colocar la vía es indiferente.",
+        "Administración de antibiótico a la llamada de quirófano (según tratamiento prescrito).",
       ],
     },
   ];
@@ -248,7 +246,7 @@ const MedicalPoster = () => {
             "• ESPLENECTOMÍA",
             "• CIRUGÍA GÁSTRICA",
             "• CIRUGÍA DE COLON",
-            "• CIRUGÍA ANAL",
+            "• CIRUGÍA ANO-RECTAL",
           ]}
           variant="pink"
           className="mb-8"
