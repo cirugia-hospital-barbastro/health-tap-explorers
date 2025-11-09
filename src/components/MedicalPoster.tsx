@@ -5,6 +5,7 @@ import thyroidIcon from "@/assets/thyroid-icon.jpg";
 import breastIcon from "@/assets/breast-icon.jpg";
 import calendarIcon from "@/assets/calendar-icon.jpg";
 import gallbladderIcon from "@/assets/gallbladder-icon.jpg";
+import homeDischargeIcon from "@/assets/home-discharge-icon.jpg";
 
 const MedicalPoster = () => {
   const preAdmissionData = {
@@ -231,6 +232,26 @@ const MedicalPoster = () => {
           title={postOperativeData.title}
           content={postOperativeData.content}
           variant="pink"
+          className="mb-8"
+        />
+
+        {/* Discharge Recommendations Section */}
+        <InteractivePosterSection
+          title="RECOMENDACIONES AL ALTA"
+          content={[
+            "• TIROIDECTOMÍA",
+            "• CIRUGÍA DE MAMA",
+            "• COLECISTECTOMÍA",
+            "• APENDICECTOMÍA",
+            "• HERNIOPLASTIA-EVENTROPLASTIA",
+            "• ESPLENECTOMÍA",
+            "• CIRUGÍA GÁSTRICA",
+            "• CIRUGÍA COLORRECTAL",
+            "• CIRUGÍA ANAL",
+            "• TOMA DE MUESTRAS PARA BIOPSIA",
+          ]}
+          variant="pink"
+          icon={homeDischargeIcon}
           className="mb-8"
         />
 
