@@ -162,15 +162,6 @@ const MedicalPoster = () => {
         "Dieta y medidas de higiene",
       ],
     },
-    {
-      title: "TOMA DE MUESTRAS PARA BIOPSIA",
-      content: [
-        "Procedimiento diagnóstico",
-        "Correcta identificación de la muestra",
-        "Envío al laboratorio de anatomía patológica",
-        "Seguimiento de resultados",
-      ],
-    },
   ];
 
   return (
@@ -255,7 +246,6 @@ const MedicalPoster = () => {
             "• CIRUGÍA GÁSTRICA",
             "• CIRUGÍA DE COLON",
             "• CIRUGÍA ANAL",
-            "• TOMA DE MUESTRAS PARA BIOPSIA",
           ]}
           variant="pink"
           className="mb-8"
