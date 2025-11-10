@@ -5,6 +5,12 @@ import thyroidIcon from "@/assets/thyroid-icon.jpg";
 import breastIcon from "@/assets/breast-icon.jpg";
 import calendarIcon from "@/assets/calendar-icon.jpg";
 import gallbladderIcon from "@/assets/gallbladder-icon.jpg";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 const MedicalPoster = () => {
   const preAdmissionData = {
@@ -245,22 +251,93 @@ const MedicalPoster = () => {
         />
 
         {/* Discharge Recommendations Section */}
-        <InteractivePosterSection
-          title="RECOMENDACIONES AL ALTA"
-          content={[
-            "• TIROIDECTOMÍA",
-            "• CIRUGÍA DE MAMA",
-            "• COLECISTECTOMÍA",
-            "• APENDICECTOMÍA",
-            "• HERNIOPLASTIA-EVENTROPLASTIA",
-            "• ESPLENECTOMÍA",
-            "• CIRUGÍA GÁSTRICA",
-            "• CIRUGÍA DE COLON",
-            "• CIRUGÍA ANO-RECTAL",
-          ]}
-          variant="pink"
-          className="mb-8"
-        />
+        <div className="bg-gradient-to-br from-pink-50 to-pink-100 dark:from-pink-950/30 dark:to-pink-900/20 rounded-2xl p-6 md:p-8 shadow-lg border-2 border-pink-200 dark:border-pink-800 mb-8">
+          <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6">
+            RECOMENDACIONES AL ALTA
+          </h3>
+          <Accordion type="single" collapsible className="space-y-2">
+            <AccordionItem value="tiroidectomia" className="border-pink-200 dark:border-pink-800">
+              <AccordionTrigger className="text-lg font-semibold text-primary hover:text-primary/80">
+                TIROIDECTOMÍA
+              </AccordionTrigger>
+              <AccordionContent className="text-foreground/90 space-y-2">
+                <p>Contenido de recomendaciones al alta para tiroidectomía.</p>
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="mama" className="border-pink-200 dark:border-pink-800">
+              <AccordionTrigger className="text-lg font-semibold text-primary hover:text-primary/80">
+                CIRUGÍA DE MAMA
+              </AccordionTrigger>
+              <AccordionContent className="text-foreground/90 space-y-2">
+                <p>Contenido de recomendaciones al alta para cirugía de mama.</p>
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="colecistectomia" className="border-pink-200 dark:border-pink-800">
+              <AccordionTrigger className="text-lg font-semibold text-primary hover:text-primary/80">
+                COLECISTECTOMÍA
+              </AccordionTrigger>
+              <AccordionContent className="text-foreground/90 space-y-2">
+                <p>Contenido de recomendaciones al alta para colecistectomía.</p>
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="apendicectomia" className="border-pink-200 dark:border-pink-800">
+              <AccordionTrigger className="text-lg font-semibold text-primary hover:text-primary/80">
+                APENDICECTOMÍA
+              </AccordionTrigger>
+              <AccordionContent className="text-foreground/90 space-y-2">
+                <p>Contenido de recomendaciones al alta para apendicectomía.</p>
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="hernioplastia" className="border-pink-200 dark:border-pink-800">
+              <AccordionTrigger className="text-lg font-semibold text-primary hover:text-primary/80">
+                HERNIOPLASTIA-EVENTROPLASTIA
+              </AccordionTrigger>
+              <AccordionContent className="text-foreground/90 space-y-2">
+                <p>Contenido de recomendaciones al alta para hernioplastia-eventroplastia.</p>
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="esplenectomia" className="border-pink-200 dark:border-pink-800">
+              <AccordionTrigger className="text-lg font-semibold text-primary hover:text-primary/80">
+                ESPLENECTOMÍA
+              </AccordionTrigger>
+              <AccordionContent className="text-foreground/90 space-y-2">
+                <p>Contenido de recomendaciones al alta para esplenectomía.</p>
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="gastrica" className="border-pink-200 dark:border-pink-800">
+              <AccordionTrigger className="text-lg font-semibold text-primary hover:text-primary/80">
+                CIRUGÍA GÁSTRICA
+              </AccordionTrigger>
+              <AccordionContent className="text-foreground/90 space-y-2">
+                <p>Contenido de recomendaciones al alta para cirugía gástrica.</p>
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="colon" className="border-pink-200 dark:border-pink-800">
+              <AccordionTrigger className="text-lg font-semibold text-primary hover:text-primary/80">
+                CIRUGÍA DE COLON
+              </AccordionTrigger>
+              <AccordionContent className="text-foreground/90 space-y-2">
+                <p>Contenido de recomendaciones al alta para cirugía de colon.</p>
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="anorectal" className="border-pink-200 dark:border-pink-800">
+              <AccordionTrigger className="text-lg font-semibold text-primary hover:text-primary/80">
+                CIRUGÍA ANO-RECTAL
+              </AccordionTrigger>
+              <AccordionContent className="text-foreground/90 space-y-2">
+                <p>Contenido de recomendaciones al alta para cirugía ano-rectal.</p>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+        </div>
 
         {/* Footer */}
         <div className="text-center text-sm md:text-base text-muted-foreground mt-12">
