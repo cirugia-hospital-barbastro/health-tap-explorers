@@ -7,6 +7,7 @@ import calendarIcon from "@/assets/calendar-icon.jpg";
 import gallbladderIcon from "@/assets/gallbladder-icon.jpg";
 import appendixIcon from "@/assets/appendix-icon.jpg";
 import herniaIcon from "@/assets/hernia-icon.jpg";
+import stomachIcon from "@/assets/stomach-icon.jpg";
 import {
   Accordion,
   AccordionContent,
@@ -151,7 +152,7 @@ const MedicalPoster = () => {
       ],
     },
     {
-      title: "CIRUGÍA GÁSTRICA",
+      title: "CIRUGÍA GÁSTRICA (GASTRECTOMÍA - FUNDUPLICATURA)",
       content: [
         "ANTES DE LA INTERVENCIÓN:",
         "Canalizar vía venosa. El brazo donde colocar la vía es indiferente.",
@@ -161,6 +162,7 @@ const MedicalPoster = () => {
         "DESPUÉS DE LA INTERVENCIÓN:",
         "Control de diuresis cada 6 horas",
       ],
+      icon: stomachIcon,
     },
     {
       title: "CIRUGÍA DE COLON",
