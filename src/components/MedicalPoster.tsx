@@ -149,10 +149,13 @@ const MedicalPoster = () => {
     {
       title: "CIRUGÍA GÁSTRICA",
       content: [
-        "VP en EE España???",
-        "Medias neumáticas",
-        "Protocolo de manejo nutricional específico",
-        "Control de náuseas y vómitos",
+        "ANTES DE LA INTERVENCIÓN:",
+        "Canalizar vía venosa. El brazo donde colocar la vía es indiferente.",
+        "Colocar medias antitrombóticas neumáticas.",
+        "Administración de antibiótico a la llamada de quirófano (según tratamiento prescrito).",
+        "",
+        "DESPUÉS DE LA INTERVENCIÓN:",
+        "Control de diuresis cada 6 horas",
       ],
     },
     {
