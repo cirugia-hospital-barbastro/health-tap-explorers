@@ -5,6 +5,7 @@ import thyroidIcon from "@/assets/thyroid-icon.jpg";
 import breastIcon from "@/assets/breast-icon.jpg";
 import calendarIcon from "@/assets/calendar-icon.jpg";
 import gallbladderIcon from "@/assets/gallbladder-icon.jpg";
+import appendixIcon from "@/assets/appendix-icon.jpg";
 import {
   Accordion,
   AccordionContent,
@@ -121,6 +122,7 @@ const MedicalPoster = () => {
         "",
         "Administración de antibiótico a la llamada de quirófano (según tratamiento prescrito)",
       ],
+      icon: appendixIcon,
     },
     {
       title: "HERNIOPLASTIA-EVENTROPLASTIA",
