@@ -9,6 +9,7 @@ import appendixIcon from "@/assets/appendix-icon.jpg";
 import herniaIcon from "@/assets/hernia-icon.jpg";
 import stomachIcon from "@/assets/stomach-icon.jpg";
 import spleenIcon from "@/assets/spleen-icon.jpg";
+import colonIcon from "@/assets/colon-icon.jpg";
 import {
   Accordion,
   AccordionContent,
@@ -217,6 +218,7 @@ const MedicalPoster = () => {
         "Control de diuresis cada 6 horas.",
         "Si se realiza COLOSTOMÍA/ILEOSTOMÍA: vigilancia e inicio de cuidados según protocolo",
       ],
+      icon: colonIcon,
     },
     {
       title: "CIRUGÍA ANO-RECTAL",
