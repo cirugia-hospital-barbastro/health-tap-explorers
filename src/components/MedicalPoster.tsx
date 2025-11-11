@@ -39,15 +39,18 @@ const MedicalPoster = () => {
   };
 
   const interventionDayData = {
-    title: "DÍA DE LA INTERVENCIÓN",
+    title: "PREPARACIÓN",
     content: [
-      "Higiene general con esponja de clorhexidina.",
-      "Si se ha programado cirugía laparoscópica, limpieza del ombligo con alcohol.",
-      "Rasurado si es necesario con maquinilla eléctrica.",
-      "Retirada de joyas, prótesis dentales, audífonos, gafas, piercings, sensores de glucemia, …",
-      "Administrar premedicación, si procede.",
-      "Toma de constantes y registro antes del traslado a unidad quirúrgica (TA, FC, Sat O2, Tª y glucemia capilar en pacientes diabéticos)",
-      "Canalizar vía periférica (preferentemente 18G), según procedimiento con perfusión de Isofundin® de mantenimiento.",
+      "Higiene general con esponja impregnada con clorhexidina.",
+      "Si se programa cirugía laparoscópica, limpieza del ombligo con alcohol.",
+      "Enjuague bucal con colutorio de clorhexidina durante al menos 30 segundos.",
+      "En caso de ser necesario rasurar la zona quirúrgica, se hará inmediatamente antes de la cirugía y con rasuradora eléctrica.",
+      "Retirada de objetos metálicos, joyas, prótesis dentales, audífonos, piercings, sensores de glucemia, …",
+      "Retirada de maquillaje y esmalte de uñas.",
+      "Administrar pre-medicación si se indica.",
+      "El paciente será trasladado a la zona quirúrgica únicamente vestido con un camisón del hospital (no llevará ropa interior).",
+      "Toma de constantes vitales (TA, FC, Sat O2, Tª y glucemia capilar en pacientes diabéticos) y registro en historia clínica.",
+      "Canalizar vía venosa (preferentemente 18G) según procedimiento con perfusión de Isofundin® de mantenimiento. El lugar donde canalizar la vía, dependerá del tipo de intervención.",
       "Completar formulario Check-list quirúrgico.",
     ],
   };
