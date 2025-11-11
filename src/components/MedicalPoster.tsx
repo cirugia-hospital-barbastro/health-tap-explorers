@@ -10,6 +10,7 @@ import herniaIcon from "@/assets/hernia-icon.jpg";
 import stomachIcon from "@/assets/stomach-icon.jpg";
 import spleenIcon from "@/assets/spleen-icon.jpg";
 import colonIcon from "@/assets/colon-icon.jpg";
+import anorectalIcon from "@/assets/anorectal-icon.jpg";
 import {
   Accordion,
   AccordionContent,
@@ -226,6 +227,7 @@ const MedicalPoster = () => {
         "Canalizar vía venosa. El brazo donde colocar la vía es indiferente.",
         "Administración de antibiótico a la llamada de quirófano (según tratamiento prescrito).",
       ],
+      icon: anorectalIcon,
     },
   ];
 
