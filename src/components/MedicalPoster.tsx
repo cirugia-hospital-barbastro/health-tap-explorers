@@ -21,20 +21,20 @@ import {
 
 const MedicalPoster = () => {
   const preAdmissionData = {
-    title: "DÍA DEL INGRESO",
+    title: "INGRESO",
     content: [
-      "Valoración de enfermería.",
-      "Comprobación de pulsera identificativa, alergias, antecedentes personales, teléfono de contacto.",
-      "Toma de constantes.",
-      "Entrega del folleto informativo.",
-      "En caso de cirugía de colon, entrega del folleto sobre ejercicios de recuperación abdominal.",
-      "Comprobación de órdenes pre-quirúrgicas en el Informe de Evaluación Pre-anestésica.",
-      "Verificar reserva de hemoderivados si es necesario (pulsera).",
+      "Valoración de enfermería, pulsera identificativa, comprobación de alergias, antecedentes personales, teléfono.",
+      "Toma de constantes y registro en historia clínica.",
+      "Entrega de díptico informativo sobre Cirugía Programada.",
+      "En cirugía de colon, entrega de folleto ejercicios recuperación abdominal.",
+      "Comprobación de órdenes pre-quirúrgicas en Informe de Evaluación Pre-anestésica (formularios).",
+      "Verificar en el parte de quirófano reserva de hemoderivados. En caso de estar indicada, el paciente deberá llevar pulsera de reserva de productos hemoderivados.",
       "Firma de vía clínica y órdenes de tratamiento por el equipo médico.",
-      "Programar la dieta:",
-      "  • Dieta habitual hasta 6-8 horas antes de la intervención.",
-      "  • En cirugía de colon, programar dieta SIN RESIDUOS hasta 6-8 horas antes de la intervención y administración de laxantes y antibióticos vía oral en función del tratamiento prescrito.",
-      "Si se programa tratamiento con hbpm NO administrarla en las 12 horas previas a la intervención.",
+      "Si se indica tratamiento con hbpm. NO se debe administrar en las 12 horas previas a la intervención quirúrgica.",
+      "Programar dieta para preparación intestinal:",
+      "  • Dieta habitual hasta 6-8 horas antes.",
+      "  • En cirugía de colon, se programará dieta sin residuos hasta 6-8 horas antes, y además se administrarán laxantes y antibióticos VO según órdenes médicas.",
+      "  • En todos los casos, se indicará dieta absoluta 6-8 horas antes de la intervención.",
     ],
   };
 
