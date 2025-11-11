@@ -8,6 +8,7 @@ import gallbladderIcon from "@/assets/gallbladder-icon.jpg";
 import appendixIcon from "@/assets/appendix-icon.jpg";
 import herniaIcon from "@/assets/hernia-icon.jpg";
 import stomachIcon from "@/assets/stomach-icon.jpg";
+import spleenIcon from "@/assets/spleen-icon.jpg";
 import {
   Accordion,
   AccordionContent,
@@ -185,6 +186,7 @@ const MedicalPoster = () => {
         "DESPUÉS DE LA INTERVENCIÓN:",
         "Control de diuresis",
       ],
+      icon: spleenIcon,
     },
     {
       title: "CIRUGÍA GÁSTRICA (GASTRECTOMÍA - FUNDUPLICATURA)",
