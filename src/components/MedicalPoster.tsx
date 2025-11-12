@@ -59,9 +59,13 @@ const MedicalPoster = () => {
     title: "LLEGADA DE U.R.P.A.",
     content: [
       "Toma de constantes vitales, EVA.",
-...
-      "  • En caso de mal control del dolor o incidencias con el catéter, avisar al anestesista de guardia.",
-      "  • Mantener oxigenoterapia durante su curso.",
+      "Vigilancia de apósitos.",
+      "Control de drenajes (comprobar lo vaciado en URPA), SNG y ostomías si se da el caso.",
+      "Impresión de órdenes de tratamiento postoperatorio.",
+      "Control de medicación administrada en URPA.",
+      "Valorar primera micción, si no micción espontánea en las primeras 6-8 h consultar para SV.",
+      "Iniciar tolerancia VO y movilización según orden medica, comunicación con TCAE y registro de horarios en díptico informativo.",
+      "Si se indica tratamiento con hbpm. NO administrar hasta pasadas 12 horas tras la intervención.",
     ],
     icon: urpaIcon,
   };
