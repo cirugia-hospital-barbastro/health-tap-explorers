@@ -23,11 +23,11 @@ const MedicalPoster = () => {
   const preAdmissionData = {
     title: "INGRESO",
     content: [
-      "Valoración de enfermería, pulsera identificativa, comprobación de alergias, antecedentes personales, teléfono.",
+      "Valoración de enfermería, pulsera identificativa, comprobación de alergias, antecedentes personales, tratamiento domiciliario, teléfono de contacto.",
       "Toma de constantes y registro en historia clínica.",
       "Entrega de díptico informativo sobre Cirugía Programada.",
       "En cirugía de colon, entrega de folleto ejercicios recuperación abdominal.",
-      "Comprobación de órdenes pre-quirúrgicas en Informe de Evaluación Pre-anestésica (formularios).",
+      "Comprobación de órdenes pre-quirúrgicas en Informe de Evaluación Pre-anestésica (formularios). Verificar suspensión de anticoagulantes, antidiabéticos, … .",
       "Verificar en el parte de quirófano reserva de hemoderivados. En caso de estar indicada, el paciente deberá llevar pulsera de reserva de productos hemoderivados.",
       "Firma de vía clínica y órdenes de tratamiento por el equipo médico.",
       "Si se indica tratamiento con hbpm. NO se debe administrar en las 12 horas previas a la intervención quirúrgica.",
