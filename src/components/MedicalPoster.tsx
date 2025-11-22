@@ -1,6 +1,7 @@
 import InteractivePosterSection from "./InteractivePosterSection";
 import anatomicalIllustration from "@/assets/anatomical-illustration.png";
 import checkListIcon from "@/assets/check-list-icon.png";
+import hospitalIcon from "@/assets/hospital-icon.jpg";
 import thyroidIcon from "@/assets/thyroid-icon.jpg";
 import breastIcon from "@/assets/breast-icon.jpg";
 import calendarIcon from "@/assets/calendar-icon.jpg";
@@ -226,7 +227,7 @@ const MedicalPoster = () => {
             title={preAdmissionData.title}
             content={preAdmissionData.content}
             variant="pink"
-            icon={checkListIcon}
+            icon={hospitalIcon}
           />
           <InteractivePosterSection
             title={interventionDayData.title}
