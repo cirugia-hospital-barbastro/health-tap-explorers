@@ -212,14 +212,20 @@ const MedicalPoster = () => {
 
   return (
     <div 
-      className="min-h-screen py-6 md:py-12 px-4 md:px-6"
-      style={{
-        backgroundImage: `url(${medicalBackground})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'repeat',
-      }}
+      className="min-h-screen py-6 md:py-12 px-4 md:px-6 relative"
     >
+      {/* Background with watermark effect */}
+      <div 
+        className="absolute inset-0 -z-10"
+        style={{
+          backgroundImage: `url(${medicalBackground})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'repeat',
+          opacity: 0.15,
+          filter: 'brightness(1.2)',
+        }}
+      />
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-8 md:mb-12">
