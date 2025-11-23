@@ -3,7 +3,7 @@ import anatomicalIllustration from "@/assets/anatomical-illustration.png";
 import checkListIcon from "@/assets/check-list-icon.png";
 import hospitalIcon from "@/assets/hospital-icon.jpg";
 import medicalBackground from "@/assets/medical-background.jpg";
-import thyroidIcon from "@/assets/thyroid-icon.jpg";
+import thyroidIcon from "@/assets/thyroid-icon.png";
 import breastIcon from "@/assets/breast-icon.jpg";
 import calendarIcon from "@/assets/calendar-icon.jpg";
 import gallbladderIcon from "@/assets/gallbladder-icon.jpg";
