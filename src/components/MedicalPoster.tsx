@@ -2,6 +2,7 @@ import InteractivePosterSection from "./InteractivePosterSection";
 import anatomicalIllustration from "@/assets/anatomical-illustration.png";
 import checkListIcon from "@/assets/check-list-icon.png";
 import hospitalIcon from "@/assets/hospital-icon.jpg";
+import medicalBackground from "@/assets/medical-background.jpg";
 import thyroidIcon from "@/assets/thyroid-icon.jpg";
 import breastIcon from "@/assets/breast-icon.jpg";
 import calendarIcon from "@/assets/calendar-icon.jpg";
@@ -210,7 +211,15 @@ const MedicalPoster = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-[var(--gradient-soft)] py-6 md:py-12 px-4 md:px-6">
+    <div 
+      className="min-h-screen py-6 md:py-12 px-4 md:px-6"
+      style={{
+        backgroundImage: `url(${medicalBackground})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'repeat',
+      }}
+    >
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-8 md:mb-12">
