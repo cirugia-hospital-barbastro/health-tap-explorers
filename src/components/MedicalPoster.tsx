@@ -223,10 +223,10 @@ const MedicalPoster = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-8 md:mb-12">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-primary mb-4 tracking-tight">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black mb-4 tracking-tight" style={{ color: '#8B1538' }}>
             CUIDADOS PRE-POST EN CIRUGÍA PROGRAMADA
           </h1>
-          <h2 className="text-2xl md:text-3xl font-bold text-primary/80">
+          <h2 className="text-2xl md:text-3xl font-bold" style={{ color: '#8B1538' }}>
             CIRUGÍA GENERAL Y DIGESTIVA del HOSPITAL DE BARBASTRO
           </h2>
           <p className="text-base md:text-lg text-muted-foreground mt-4">
