@@ -85,11 +85,11 @@ const MedicalPoster = () => {
     {
       title: "TIROIDECTOMÍA",
       content: [
-        "ANTES DE LA INTERVENCIÓN:",
+        "<strong>ANTES DE LA INTERVENCIÓN:</strong>",
         "- Canalizar vía venosa. El brazo donde colocar la vía es indiferente",
-        "- Administración de dexametasona y antibiótico a la llamada de quirófano (según tratamiento prescrito)",
+        "- Administración de <u>dexametasona</u> y <u>antibiótico</u> a la llamada de quirófano (según tratamiento prescrito)",
         "",
-        "POST-OPERATORIO:",
+        "<strong>POST-OPERATORIO:</strong>",
         "- Monitorizar diuresis durante las primeras 24 horas",
         "- Paciente en posición semifowler o fowler alta (30-45º), para reducir el edema",
         "- Evitar la extensión excesiva del cuello.",

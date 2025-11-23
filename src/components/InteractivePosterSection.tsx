@@ -63,9 +63,8 @@ const InteractivePosterSection = ({
             <p
               key={index}
               className="text-sm md:text-base text-foreground/90 leading-relaxed pl-3 border-l-2 border-foreground/30"
-            >
-              {item}
-            </p>
+              dangerouslySetInnerHTML={{ __html: item }}
+            />
           ))}
         </div>
       )}
