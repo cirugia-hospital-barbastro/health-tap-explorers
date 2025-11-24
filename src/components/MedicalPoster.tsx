@@ -6,7 +6,7 @@ import medicalBackground from "@/assets/medical-background.jpg";
 import thyroidIcon from "@/assets/thyroid-icon.png";
 import breastIcon from "@/assets/breast-icon.jpg";
 import calendarIcon from "@/assets/calendar-icon.jpg";
-import gallbladderIcon from "@/assets/gallbladder-icon.jpg";
+import gallbladderIcon from "@/assets/gallbladder-new-icon.png";
 import appendixIcon from "@/assets/appendix-icon.jpg";
 import herniaIcon from "@/assets/hernia-icon.jpg";
 import stomachIcon from "@/assets/stomach-icon.jpg";
