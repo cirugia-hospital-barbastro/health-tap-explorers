@@ -100,7 +100,6 @@ const MedicalPoster = () => {
         "- Se iniciará la tolerancia VO según indicación médica, procurando que sean alimentos de fácil masticación y deglución para reducir las molestias",
         "- Vigilar la aparición de náuseas y/o vómitos ya que pueden aumentar la tensión en la herida",
         "- Si se indica tratamiento con levotiroxina, se recomienda administrar en ayunas (una hora antes del desayuno) para una mejor absorción",
-        "- La cura se realizará con clorhexidina, evitando la aplicación de povidona yodada",
       ],
       icon: thyroidIcon,
     },
