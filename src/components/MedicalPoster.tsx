@@ -7,7 +7,7 @@ import thyroidIcon from "@/assets/thyroid-icon.png";
 import breastIcon from "@/assets/breast-icon.jpg";
 import calendarIcon from "@/assets/calendar-icon.jpg";
 import gallbladderIcon from "@/assets/gallbladder-new-icon.png";
-import appendixIcon from "@/assets/appendix-icon.jpg";
+import appendixIcon from "@/assets/appendix-icon-new.png";
 import herniaIcon from "@/assets/hernia-icon.jpg";
 import stomachIcon from "@/assets/stomach-icon.jpg";
 import spleenIcon from "@/assets/spleen-icon.jpg";
@@ -150,6 +150,7 @@ const MedicalPoster = () => {
         "Administración de antibiótico a la llamada de quirófano (según tratamiento prescrito)",
       ],
       icon: appendixIcon,
+      roundIcon: true,
     },
     {
       title: "HERNIOPLASTIA-EVENTROPLASTIA",
