@@ -117,6 +117,7 @@ const MedicalPoster = () => {
         "- ⚠️ En LINFADENECTOMÍA, <u>no realizar acciones terapéuticas/diagnósticas en el brazo ipsilateral</u>. Se recomienda mantener el brazo apoyado y en alto mientras esté sentada y no dormir sobre él. Evitar objetos que compriman (anillos, pulseras, ropa ajustada).",
       ],
       icon: breastIcon,
+      roundIcon: true,
     },
     {
       title: "COLECISTECTOMÍA",
@@ -274,6 +275,7 @@ const MedicalPoster = () => {
                 content={procedure.content}
                 variant="green"
                 icon={procedure.icon}
+                roundIcon={procedure.roundIcon}
               />
             ))}
           </div>
@@ -287,6 +289,7 @@ const MedicalPoster = () => {
                 content={procedure.content}
                 variant="green"
                 icon={procedure.icon}
+                roundIcon={procedure.roundIcon}
               />
             ))}
           </div>
