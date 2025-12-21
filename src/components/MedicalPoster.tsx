@@ -141,6 +141,7 @@ const MedicalPoster = () => {
     {
       title: "APENDICECTOMÍA",
       content: [
+        "<strong>ANTES DE LA INTERVENCIÓN:</strong>",
         "CIRUGÍA ABIERTA:",
         "Canalizar vía venosa en brazo izquierdo.",
         "",
