@@ -169,6 +169,8 @@ const MedicalPoster = () => {
     {
       title: "HERNIOPLASTIA-EVENTROPLASTIA",
       content: [
+        "<strong>ANTES DE LA INTERVENCIÓN:</strong>",
+        "",
         "CIRUGÍA ABIERTA:",
         "Canalizar vía venosa en el lado contrario a la intervención.",
         "",
