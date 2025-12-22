@@ -229,6 +229,7 @@ const MedicalPoster = () => {
         "Si se realiza COLOSTOMÍA/ILEOSTOMÍA: vigilancia e inicio de cuidados según protocolo",
       ],
       icon: colonIcon,
+      largeIcon: true,
     },
     {
       title: "CIRUGÍA ANO-RECTAL",
@@ -277,12 +278,14 @@ const MedicalPoster = () => {
             content={preAdmissionData.content}
             variant="pink"
             icon={hospitalIcon}
+            largeIcon={true}
           />
           <InteractivePosterSection
             title={interventionDayData.title}
             content={interventionDayData.content}
             variant="pink"
             icon={preparationIcon}
+            largeIcon={true}
           />
         </div>
 
@@ -319,7 +322,6 @@ const MedicalPoster = () => {
           </div>
         </div>
 
-        {/* Post-Operative Section */}
         <InteractivePosterSection
           title={postOperativeData.title}
           content={postOperativeData.content}
@@ -327,6 +329,7 @@ const MedicalPoster = () => {
           className="mb-8"
           icon={postOperativeData.icon}
           roundIcon={true}
+          largeIcon={true}
         />
 
         {/* Footer */}
