@@ -10,7 +10,7 @@ import gallbladderIcon from "@/assets/gallbladder-new-icon.png";
 import appendixIcon from "@/assets/appendix-icon-new.png";
 import herniaIcon from "@/assets/hernia-icon.jpg";
 import stomachIcon from "@/assets/stomach-icon.jpg";
-import spleenIcon from "@/assets/spleen-icon.jpg";
+import spleenIcon from "@/assets/spleen-icon-new.png";
 import colonIcon from "@/assets/colon-icon.jpg";
 import anorectalIcon from "@/assets/anorectal-icon.jpg";
 import urpaIcon from "@/assets/urpa-icon.jpg";
