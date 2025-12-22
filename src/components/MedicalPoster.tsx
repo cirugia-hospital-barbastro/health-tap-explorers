@@ -32,11 +32,11 @@ const MedicalPoster = () => {
       "Comprobación de <u>órdenes pre-quirúrgicas</u> en Informe de Evaluación Pre-anestésica (formularios). Verificar suspensión de anticoagulantes, antidiabéticos, … .",
       "Verificar en el parte de quirófano <u>reserva de hemoderivados</u>. En caso de estar indicada, el paciente deberá llevar <u>pulsera</u> de reserva de productos hemoderivados.",
       "<u>Firma de vía clínica</u> y órdenes de tratamiento por el equipo médico.",
-      "<u>Si se indica tratamiento con hbpm. NO se debe administrar en las 12 horas previas a la intervención quirúrgica.</u>",
+      "<strong><u>Si se indica tratamiento con hbpm, NO se debe administrar en las 12 horas previas a la intervención quirúrgica.</u></strong>",
       "<strong>Programar dieta</strong> para preparación intestinal:",
       "  • Dieta habitual hasta 6-8 horas antes.",
       "  • En <u>cirugía de colon</u>, se programará dieta <u>sin residuos</u> hasta 6-8 horas antes, y además se administrarán laxantes y antibióticos VO según órdenes médicas.",
-      "  • En todos los casos, se indicará <u>dieta absoluta</u> 6-8 horas antes de la intervención.",
+      "  • En todos los casos, se indicará <strong><u>dieta absoluta 6-8 horas antes de la intervención</u></strong>.",
     ],
   };
 
