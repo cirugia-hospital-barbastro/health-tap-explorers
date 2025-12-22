@@ -10,6 +10,7 @@ interface InteractivePosterSectionProps {
   icon?: string;
   roundIcon?: boolean;
   largeIcon?: boolean;
+  fadeRight?: boolean;
 }
 
 const InteractivePosterSection = ({
@@ -20,6 +21,7 @@ const InteractivePosterSection = ({
   icon,
   roundIcon = false,
   largeIcon = false,
+  fadeRight = false,
 }: InteractivePosterSectionProps) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -51,6 +53,10 @@ const InteractivePosterSection = ({
                 largeIcon ? "w-12 h-12 md:w-16 md:h-16" : "w-8 h-8 md:w-10 md:h-10",
                 roundIcon && "rounded-full"
               )}
+              style={fadeRight ? {
+                maskImage: 'linear-gradient(to right, black 70%, transparent 100%)',
+                WebkitMaskImage: 'linear-gradient(to right, black 70%, transparent 100%)'
+              } : undefined}
             />
           )}
           <h3 className="text-base md:text-lg font-bold text-foreground uppercase tracking-wide">

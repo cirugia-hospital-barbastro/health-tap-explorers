@@ -12,7 +12,7 @@ import herniaIcon from "@/assets/hernia-icon.jpg";
 import stomachIcon from "@/assets/stomach-icon-new.png";
 import spleenIcon from "@/assets/spleen-icon-new.png";
 import colonIcon from "@/assets/colon-icon-new.png";
-import anorectalIcon from "@/assets/anorectal-icon.jpg";
+import anorectalIcon from "@/assets/anorectal-icon-new.png";
 import urpaIcon from "@/assets/urpa-icon.jpg";
 import {
   Accordion,
@@ -240,6 +240,8 @@ const MedicalPoster = () => {
         "Administración de antibiótico a la llamada de quirófano (según tratamiento prescrito).",
       ],
       icon: anorectalIcon,
+      largeIcon: true,
+      fadeRight: true,
     },
   ];
 
@@ -304,6 +306,7 @@ const MedicalPoster = () => {
                 icon={procedure.icon}
                 roundIcon={procedure.roundIcon}
                 largeIcon={procedure.largeIcon}
+                fadeRight={procedure.fadeRight}
               />
             ))}
           </div>
@@ -319,6 +322,7 @@ const MedicalPoster = () => {
                 icon={procedure.icon}
                 roundIcon={procedure.roundIcon}
                 largeIcon={procedure.largeIcon}
+                fadeRight={procedure.fadeRight}
               />
             ))}
           </div>
