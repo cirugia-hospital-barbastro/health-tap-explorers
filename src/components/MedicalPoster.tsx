@@ -102,6 +102,7 @@ const MedicalPoster = () => {
         "- Si se indica tratamiento con levotiroxina, se recomienda administrar en ayunas (una hora antes del desayuno) para una mejor absorción",
       ],
       icon: thyroidIcon,
+      largeIcon: true,
     },
     {
       title: "CIRUGÍA DE MAMA",
@@ -137,6 +138,7 @@ const MedicalPoster = () => {
         "- Se iniciará la tolerancia VO según indicación médica (generalmente se inician líquidos a las 21 h). La dieta siempre será de <u>PROTECCIÓN HEPÁTICA</u>",
       ],
       icon: gallbladderIcon,
+      largeIcon: true,
     },
     {
       title: "APENDICECTOMÍA",
@@ -165,6 +167,7 @@ const MedicalPoster = () => {
       ],
       icon: appendixIcon,
       roundIcon: true,
+      largeIcon: true,
     },
     {
       title: "HERNIOPLASTIA-EVENTROPLASTIA",
