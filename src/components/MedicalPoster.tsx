@@ -29,7 +29,7 @@ const MedicalPoster = () => {
       "Toma de constantes y registro en historia clínica.",
       "Entrega de díptico informativo sobre Cirugía Programada.",
       "En <u>cirugía de colon</u>, entrega de folleto ejercicios recuperación abdominal.",
-      "Comprobación de <u>órdenes pre-quirúrgicas</u> en Informe de Evaluación Pre-anestésica (formularios). Verificar suspensión de anticoagulantes, antidiabéticos, … .",
+      "Comprobación de <u>órdenes pre-quirúrgicas</u> en <u>Informe de Evaluación Pre-anestésica</u> (formularios). Verificar suspensión de anticoagulantes, antidiabéticos, … .",
       "Verificar en el parte de quirófano <u>reserva de hemoderivados</u>. En caso de estar indicada, el paciente deberá llevar <u>pulsera</u> de reserva de productos hemoderivados.",
       "<u>Firma de vía clínica</u> y órdenes de tratamiento por el equipo médico.",
       "<strong><u>Si se indica tratamiento con hbpm, NO se debe administrar en las 12 horas previas a la intervención quirúrgica.</u></strong>",
