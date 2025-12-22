@@ -240,7 +240,7 @@ const MedicalPoster = () => {
         "Administración de antibiótico a la llamada de quirófano (según tratamiento prescrito).",
       ],
       icon: anorectalIcon,
-      largeIcon: true,
+      extraLargeIcon: true,
       fadeRight: true,
     },
   ];
@@ -306,6 +306,7 @@ const MedicalPoster = () => {
                 icon={procedure.icon}
                 roundIcon={procedure.roundIcon}
                 largeIcon={procedure.largeIcon}
+                extraLargeIcon={procedure.extraLargeIcon}
                 fadeRight={procedure.fadeRight}
               />
             ))}
@@ -322,6 +323,7 @@ const MedicalPoster = () => {
                 icon={procedure.icon}
                 roundIcon={procedure.roundIcon}
                 largeIcon={procedure.largeIcon}
+                extraLargeIcon={procedure.extraLargeIcon}
                 fadeRight={procedure.fadeRight}
               />
             ))}
