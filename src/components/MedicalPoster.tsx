@@ -180,6 +180,7 @@ const MedicalPoster = () => {
         "Administración de antibiótico a la llamada de quirófano (según tratamiento prescrito).",
       ],
       icon: herniaIcon,
+      roundIcon: true,
     },
     {
       title: "ESPLENECTOMÍA",
