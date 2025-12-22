@@ -184,6 +184,7 @@ const MedicalPoster = () => {
       ],
       icon: herniaIcon,
       roundIcon: true,
+      largeIcon: true,
     },
     {
       title: "ESPLENECTOMÍA",
@@ -197,6 +198,7 @@ const MedicalPoster = () => {
         "Control de diuresis",
       ],
       icon: spleenIcon,
+      largeIcon: true,
     },
     {
       title: "CIRUGÍA GÁSTRICA (GASTRECTOMÍA - FUNDUPLICATURA)",
