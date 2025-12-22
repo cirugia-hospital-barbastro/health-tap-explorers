@@ -52,7 +52,7 @@ const InteractivePosterSection = ({
               alt="" 
               className={cn(
                 "object-contain flex-shrink-0",
-                extraLargeIcon ? "w-16 h-16 md:w-20 md:h-20" : largeIcon ? "w-12 h-12 md:w-16 md:h-16" : "w-8 h-8 md:w-10 md:h-10",
+                extraLargeIcon ? "w-14 h-14 md:w-18 md:h-18" : largeIcon ? "w-12 h-12 md:w-16 md:h-16" : "w-8 h-8 md:w-10 md:h-10",
                 roundIcon && "rounded-full"
               )}
               style={fadeRight ? {
