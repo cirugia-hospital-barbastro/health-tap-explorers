@@ -184,7 +184,7 @@ const MedicalPoster = () => {
         "⚠️ Si el líquido es cada vez más rojo y más productivo, puede indicar hemorragia.",
         "Una secreción purulenta puede indicar infección.",
         "- En caso de CIRUGÍA LAPAROSCÓPICA, la presencia de gases es habitual. Pueden provocar dolor irradiado hacia el hombro derecho, la mejor manera de disminuirlos es la incorporación y deambulación.",
-        "- En HERNIOPLASTIA INGUINAL, es recomendable que lleve <u>ropa interior</u> de algodón (bragas o calzoncillos), elásticos, tipo boxer <u>ligeramente apretados</u>. Para evitar la aparición de hematoma e inflamación.",
+        "- En HERNIOPLASTIA INGUINAL, es recomendable que lleve <u>ropa interior</u> de algodón (bragas o calzoncillos), elásticos, tipo boxer <u>ligeramente apretados</u>, para evitar la aparición de hematoma e inflamación.",
         "- En EVENTROPLASTIA LAPAROSCÓPICA (ETEP), suele estar indicada la <u>faja abdominal</u>. Se debe colocar <u>antes de levantarse</u> del sillón o la cama y al salir a caminar; no es necesario usarla mientras duerme.",
       ],
       icon: herniaIcon,
