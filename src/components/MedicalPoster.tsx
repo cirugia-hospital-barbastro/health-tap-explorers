@@ -202,7 +202,7 @@ const MedicalPoster = () => {
         "Control de diuresis cada 6 horas",
       ],
       icon: stomachIcon,
-      largeIcon: true,
+      extraLargeIcon: true,
     },
     {
       title: "CIRUGÍA DE COLON",
