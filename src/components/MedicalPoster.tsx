@@ -9,7 +9,7 @@ import calendarIcon from "@/assets/calendar-icon.jpg";
 import gallbladderIcon from "@/assets/gallbladder-new-icon.png";
 import appendixIcon from "@/assets/appendix-icon-new.png";
 import herniaIcon from "@/assets/hernia-icon.jpg";
-import stomachIcon from "@/assets/stomach-icon.jpg";
+import stomachIcon from "@/assets/stomach-icon-new.png";
 import spleenIcon from "@/assets/spleen-icon-new.png";
 import colonIcon from "@/assets/colon-icon.jpg";
 import anorectalIcon from "@/assets/anorectal-icon.jpg";
