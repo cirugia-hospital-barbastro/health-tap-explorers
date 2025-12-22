@@ -10,6 +10,7 @@ interface InteractivePosterSectionProps {
   icon?: string;
   roundIcon?: boolean;
   largeIcon?: boolean;
+  extraLargeIcon?: boolean;
   fadeRight?: boolean;
 }
 
@@ -21,6 +22,7 @@ const InteractivePosterSection = ({
   icon,
   roundIcon = false,
   largeIcon = false,
+  extraLargeIcon = false,
   fadeRight = false,
 }: InteractivePosterSectionProps) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -50,7 +52,7 @@ const InteractivePosterSection = ({
               alt="" 
               className={cn(
                 "object-contain flex-shrink-0",
-                largeIcon ? "w-12 h-12 md:w-16 md:h-16" : "w-8 h-8 md:w-10 md:h-10",
+                extraLargeIcon ? "w-16 h-16 md:w-20 md:h-20" : largeIcon ? "w-12 h-12 md:w-16 md:h-16" : "w-8 h-8 md:w-10 md:h-10",
                 roundIcon && "rounded-full"
               )}
               style={fadeRight ? {
