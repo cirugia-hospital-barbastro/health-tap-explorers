@@ -319,6 +319,7 @@ const MedicalPoster = () => {
           variant="pink"
           className="mb-8"
           icon={postOperativeData.icon}
+          roundIcon={true}
         />
 
         {/* Footer */}
