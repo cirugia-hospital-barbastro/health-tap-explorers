@@ -43,17 +43,17 @@ const MedicalPoster = () => {
   const interventionDayData = {
     title: "PREPARACIÓN",
     content: [
-      "Higiene general con esponja impregnada con clorhexidina.",
-      "Si se programa cirugía laparoscópica, limpieza del ombligo con alcohol.",
-      "Higiene bucal.",
-      "En caso de ser necesario rasurar la zona quirúrgica, se hará inmediatamente antes de la cirugía y con rasuradora eléctrica.",
-      "Retirada de objetos metálicos, joyas, prótesis dentales, audífonos, piercings, sensores de glucemia, …",
-      "Retirada de maquillaje y esmalte de uñas.",
-      "Administrar pre-medicación si está indicado.",
-      "El paciente será trasladado a la zona quirúrgica únicamente vestido con un camisón del hospital (no llevará ropa interior).",
-      "Toma de constantes vitales (TA, FC, Sat O2, Tª y glucemia capilar en pacientes diabéticos) y registro en historia clínica.",
-      "Canalizar vía venosa (preferentemente 18G) según procedimiento con perfusión de Isofundin® de mantenimiento. El lugar donde canalizar la vía, dependerá del tipo de intervención.",
-      "Completar formulario Check-list quirúrgico.",
+      "- <u>Higiene general</u> con esponja impregnada con <u>clorhexidina</u>.",
+      "- Si se programa cirugía laparoscópica, limpieza del ombligo con alcohol.",
+      "- Higiene bucal.",
+      "- En caso de ser necesario <u>rasurar</u> la zona quirúrgica, se hará inmediatamente antes de la cirugía y con rasuradora eléctrica.",
+      "- Retirada de objetos metálicos, joyas, prótesis dentales, audífonos, piercings, sensores de glucemia, …",
+      "- Retirada de maquillaje y esmalte de uñas.",
+      "- Administrar <u>pre-medicación</u> si está indicado.",
+      "- El paciente será trasladado a la zona quirúrgica únicamente vestido con un camisón del hospital (no llevará ropa interior).",
+      "- Toma de constantes vitales (TA, FC, Sat O2, Tª y glucemia capilar en pacientes diabéticos) y registro en historia clínica.",
+      "- <u>Canalizar vía venosa</u> (preferentemente 18G) según procedimiento con perfusión de <u>ISOFUNDIN de mantenimiento</u>. <u>El lugar dependerá del tipo de intervención</u>.",
+      "- Completar formulario <u>Check-list</u> quirúrgico.",
     ],
   };
 
