@@ -84,7 +84,7 @@ const InteractivePosterSection = ({
                   <img 
                     src={painScaleImage} 
                     alt="Escala de dolor EVA" 
-                    className="max-w-[180px] md:max-w-[220px] h-auto"
+                    className="max-w-[220px] md:max-w-[280px] h-auto"
                   />
                 </div>
               );
