@@ -60,7 +60,7 @@ const MedicalPoster = () => {
   const postOperativeData = {
     title: "LLEGADA DE U.R.P.A.",
     content: [
-      "- Toma frecuente de <u>constantes vitales</u> (TA, FC, Sat O, EVA).",
+      "- Toma frecuente de <u>constantes vitales</u> (TA, FC, Sat O<sub>2</sub>, EVA).",
       "<img:pain-scale>",
       "- Vigilancia de <u>apósitos</u>. Si está ligeramente manchado, marcar con rotulador y vigilar progresión.",
       "- Control de <strong>DRENAJES</strong> (cantidad, aspecto, conservación del vacío del receptal). Comprobar lo cuantificado en URPA.",
