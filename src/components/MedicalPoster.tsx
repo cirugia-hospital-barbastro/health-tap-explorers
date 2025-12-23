@@ -34,9 +34,9 @@ const MedicalPoster = () => {
       "<u>Firma de vía clínica</u> y órdenes de tratamiento por el equipo médico.",
       "<strong><u>Si se indica tratamiento con hbpm, NO se debe administrar en las 12 horas previas a la intervención quirúrgica.</u></strong>",
       "<strong>Programar dieta</strong> para preparación intestinal:",
-      "      • Dieta habitual hasta 6-8 horas antes.",
-      "      • En <u>cirugía de colon</u>, se programará dieta <u>sin residuos</u> hasta 6-8 horas antes, y además se administrarán laxantes y antibióticos VO según órdenes médicas.",
-      "      • En todos los casos, se indicará <strong><u>dieta absoluta 6-8 horas antes de la intervención</u></strong>.",
+      "<span style='margin-left: 2rem; display: block;'>• Dieta habitual hasta 6-8 horas antes.</span>",
+      "<span style='margin-left: 2rem; display: block;'>• En <u>cirugía de colon</u>, se programará dieta <u>sin residuos</u> hasta 6-8 horas antes, y además se administrarán laxantes y antibióticos VO según órdenes médicas.</span>",
+      "<span style='margin-left: 2rem; display: block;'>• En todos los casos, se indicará <strong><u>dieta absoluta 6-8 horas antes de la intervención</u></strong>.</span>",
     ],
   };
 
