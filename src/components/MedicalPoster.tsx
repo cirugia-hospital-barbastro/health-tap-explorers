@@ -286,7 +286,7 @@ const MedicalPoster = () => {
         {/* Header */}
         <div className="text-center mb-8 md:mb-12">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-black mb-4 tracking-tight" style={{ color: '#8B1538' }}>
-            CUIDADOS PRE-POST EN CIRUGÍA PROGRAMADA
+            CUIDADOS PERIOPERATORIOS EN CIRUGÍA PROGRAMADA
           </h1>
           <h2 className="text-2xl md:text-3xl font-bold" style={{ color: '#8B1538' }}>
             CIRUGÍA GENERAL Y DIGESTIVA del HOSPITAL DE BARBASTRO
