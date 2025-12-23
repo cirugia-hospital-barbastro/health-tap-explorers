@@ -230,7 +230,7 @@ const MedicalPoster = () => {
         "<span style='margin-left: 2rem; display: block;'>* En HEMICOLECTOMIA DCHA, en el brazo derecho.</span>",
         "- Colocar <u>medias antitrombóticas</u>.",
         "<span style='margin-left: 2rem; display: block;'>* De forma general, <u>elásticas</u>.</span>",
-        "<span style='margin-left: 2rem; display: block;'>* En RECTO, <u>neumáticas</u>.</span>",
+        "<span style='margin-left: 2rem; display: block;'>* En RESECCIÓN ANTERIOR DE RECTO, <u>neumáticas</u>.</span>",
         "- Administración de <u>antibiótico</u> a la llamada de quirófano (según tratamiento prescrito).",
         "",
         "<strong>DESPUÉS DE LA INTERVENCIÓN:</strong>",
