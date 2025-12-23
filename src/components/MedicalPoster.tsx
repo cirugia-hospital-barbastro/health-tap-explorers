@@ -199,7 +199,7 @@ const MedicalPoster = () => {
         "- En GASTRECTOMIA, colocación de <u>medias antitrombóticas neumáticas</u>.",
         "",
         "<strong>POST-OPERATORIO:</strong>",
-        "- <u>Control estricto diuresis cada 6 horas</u>. En GASTRECTOMIA, control estricto diuresis cada 6 horas con urimeter (puede estar indicada la administración de <u>sobrecargas</u> en función de la cantidad).",
+        "- Control de <u>diuresis</u>. En GASTRECTOMIA, <u>control estricto diuresis cada 6 horas</u> con urimeter (puede estar indicada la administración de <u>sobrecargas</u> en función de la cantidad).",
         "- Fisioterapia respiratoria con <u>inspirómetro incentivador</u> (unos 10 ejercicios a la hora, respetando el descanso nocturno)",
         "- En caso de CIRUGÍA LAPAROSCÓPICA, la presencia de gases es habitual. Pueden provocar dolor irradiado hacia el hombro derecho, la mejor manera de disminuirlos es la incorporación y deambulación.",
         "- ⚠️ Al iniciar la tolerancia oral, la DIETA deberá ser <u>fraccionada inicialmente</u>, tomando los líquidos fuera de las ingestas. <u>Evitar la leche</u>.",
