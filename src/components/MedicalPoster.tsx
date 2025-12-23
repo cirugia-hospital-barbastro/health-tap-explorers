@@ -243,6 +243,7 @@ const MedicalPoster = () => {
       content: [
         "Canalizar vía venosa. El brazo donde colocar la vía es indiferente.",
         "Administración de antibiótico a la llamada de quirófano (según tratamiento prescrito).",
+        "- Se debe evitar el uso de papel higiénico.",
       ],
       icon: anorectalIcon,
       extraLargeIcon: true,
