@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
+import painScaleImage from "@/assets/pain-scale.png";
 
 interface InteractivePosterSectionProps {
   title: string;
@@ -75,13 +76,27 @@ const InteractivePosterSection = ({
       
       {isExpanded && (
         <div className="mt-4 space-y-2 animate-in fade-in slide-in-from-top-2 duration-300">
-          {content.map((item, index) => (
-            <p
-              key={index}
-              className="text-sm md:text-base text-foreground/90 leading-relaxed pl-3 border-l-2 border-foreground/30"
-              dangerouslySetInnerHTML={{ __html: item }}
-            />
-          ))}
+          {content.map((item, index) => {
+            // Check if this is an image marker
+            if (item === "<img:pain-scale>") {
+              return (
+                <div key={index} className="flex justify-center py-2">
+                  <img 
+                    src={painScaleImage} 
+                    alt="Escala de dolor EVA" 
+                    className="max-w-xs md:max-w-sm h-auto"
+                  />
+                </div>
+              );
+            }
+            return (
+              <p
+                key={index}
+                className="text-sm md:text-base text-foreground/90 leading-relaxed pl-3 border-l-2 border-foreground/30"
+                dangerouslySetInnerHTML={{ __html: item }}
+              />
+            );
+          })}
         </div>
       )}
     </div>

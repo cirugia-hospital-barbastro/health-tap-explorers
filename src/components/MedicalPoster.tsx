@@ -61,6 +61,7 @@ const MedicalPoster = () => {
     title: "LLEGADA DE U.R.P.A.",
     content: [
       "- Toma frecuente de <u>constantes vitales</u> (TA, FC, Sat O, EVA).",
+      "<img:pain-scale>",
       "- Vigilancia de <u>apósitos</u>. Si está ligeramente manchado, marcar con rotulador y vigilar progresión.",
       "- Control de <strong>DRENAJES</strong> (cantidad, aspecto, conservación del vacío del receptal). Comprobar lo cuantificado en URPA.",
       "<span style='margin-left: 2rem; display: block;'>⚠️ Un líquido <u>bilioso</u>, espeso y de color verdoso o amarillo intenso puede indicar una FUGA BILIAR.</span>",
