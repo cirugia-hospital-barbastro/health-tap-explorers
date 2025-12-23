@@ -161,9 +161,9 @@ const MedicalPoster = () => {
       content: [
         "<strong>ANTES DE LA INTERVENCIÓN:</strong>",
         "- Canalizar vía venosa",
-        "        * En CIRUGÍA ABIERTA, lado contrario a la intervención.",
-        "        * En LAPAROSCOPIA (TEP-ETEP), mismo lado.",
-        "        * Si es BILATERAL, es indiferente.",
+        "<span style='margin-left: 2rem; display: block;'>* En CIRUGÍA ABIERTA, lado contrario a la intervención.</span>",
+        "<span style='margin-left: 2rem; display: block;'>* En LAPAROSCOPIA (TEP-ETEP), mismo lado.</span>",
+        "<span style='margin-left: 2rem; display: block;'>* Si es BILATERAL, es indiferente.</span>",
         "- Administración de <u>antibiótico</u> a la llamada de quirófano (según tratamiento prescrito)",
         "<strong>POST-OPERATORIO:</strong>",
         "- En caso de CIRUGÍA LAPAROSCÓPICA, la presencia de gases es habitual. Pueden provocar dolor irradiado hacia el hombro derecho, la mejor manera de disminuirlos es la incorporación y deambulación.",
