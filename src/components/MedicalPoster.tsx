@@ -203,8 +203,8 @@ const MedicalPoster = () => {
       content: [
         "<strong>ANTES DE LA INTERVENCIÓN:</strong>",
         "- Canalizar vía venosa. El lado donde canalizar la vía es indiferente.",
-        "- Administración de <u>antibiótico</u> a la llamada de quirófano (según tratamiento prescrito).",
         "- En GASTRECTOMIA, colocación de <u>medias antitrombóticas neumáticas</u>.",
+        "- Administración de <u>antibiótico</u> a la llamada de quirófano (según tratamiento prescrito).",
         "",
         "<strong>POST-OPERATORIO:</strong>",
         "- Control de <u>diuresis</u>. En GASTRECTOMIA, <u>control estricto diuresis cada 6 horas</u> con urimeter (puede estar indicada la administración de <u>sobrecargas</u> en función de la cantidad).",
