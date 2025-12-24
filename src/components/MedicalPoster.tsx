@@ -187,7 +187,6 @@ const MedicalPoster = () => {
         "<b>ANTES DE LA INTERVENCIÓN:</b>",
         "- Canalizar vía venosa en brazo izquierdo.",
         "- Administración de <u>antibiótico</u> a la llamada de quirófano (según tratamiento prescrito).",
-        "- Colocación de <u>medias antitrombóticas</u> elásticas.",
         "",
         "<b>POST-OPERATORIO:</b>",
         "- Control de diuresis.",
