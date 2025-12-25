@@ -192,7 +192,6 @@ const MedicalPoster = () => {
         "- Control de diuresis.",
         "- En caso de CIRUGÍA LAPAROSCÓPICA, la presencia de gases es habitual. Pueden provocar dolor irradiado hacia el hombro derecho, la mejor manera de disminuirlos es la incorporación y deambulación.",
         "- ⚠️ Se deben extremar las medidas de higiene, así como evitar patología infecciosa en la misma habitación dado el RIESGO AUMENTADO DE INFECCIONES por la falta del bazo para filtrar patógenos.",
-        "- Las medias antitrombóticas se mantendrán hasta el inicio de la movilización activa.",
       ],
       icon: spleenIcon,
       largeIcon: true,
