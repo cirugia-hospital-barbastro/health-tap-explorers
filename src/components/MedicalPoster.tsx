@@ -158,6 +158,7 @@ const MedicalPoster = () => {
         "",
         "<strong>POST-OPERATORIO:</strong>",
         "",
+        "- Control de diuresis.",
         "- En caso de CIRUGÍA LAPAROSCÓPICA, la presencia de gases es habitual. Pueden provocar dolor irradiado hacia el hombro derecho, la mejor manera de disminuirlos es la incorporación y deambulación.",
       ],
       icon: appendixIcon,
