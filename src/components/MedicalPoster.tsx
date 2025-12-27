@@ -28,7 +28,7 @@ const MedicalPoster = () => {
       "- Valoración de enfermería, <u>pulsera identificativa</u>, comprobación de <u>alergias</u>, antecedentes personales, tratamiento domiciliario, <u>teléfono</u> de contacto.",
       "- Toma de constantes y registro en historia clínica.",
       "- Entrega de díptico informativo sobre Cirugía Programada.",
-      "- En <u>cirugía de colon</u>, entrega de folleto ejercicios recuperación abdominal.",
+      "- En <u>cirugía de colon</u>, entrega de folleto ejercicios recuperación abdominal y <strong>MARCAJE</strong> del estoma si se indica.",
       "- Comprobación de <u>órdenes pre-quirúrgicas</u> en <u>Informe de Evaluación Pre-anestésica</u> (formularios). <strong><u>Verificar suspensión de anticoagulantes, antidiabéticos, …</u></strong> .",
       "- Verificar en el parte de quirófano <u>reserva de hemoderivados</u>. En caso de estar indicada, el paciente deberá llevar <u>pulsera</u> de reserva de productos hemoderivados.",
       "- <u>Firma de vía clínica</u> y órdenes de tratamiento por el equipo médico.",
