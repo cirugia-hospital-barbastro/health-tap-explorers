@@ -241,7 +241,7 @@ const MedicalPoster = () => {
         "<strong>DESPUÉS DE LA INTERVENCIÓN:</strong>",
         "- <u>Control estricto de diuresis cada 6 horas con urimeter</u> (puede estar indicada la administración de sobrecargas en función de la cantidad).",
         "- El mismo día de la IQ, suele indicarse A las 20h <u>sedestación</u>.",
-        "- Se iniciará la tolerancia VO según indicación médica (generalmente se inician <u>sorbos de agua</u> a las 20 h). La dieta se progresará según orden médica <u>evitando la leche</u>.",
+        "- Se iniciará la tolerancia VO según indicación médica (generalmente se inician <u>sorbos de agua</u> a las 20 h). La dieta se progresará según orden médica <u>evitando la leche</u> durante las primeras 24 horas postIQ, pudiendo introducirla en la dieta con la dieta semiblanda, si no hay contraindicación.",
         "- Fisioterapia respiratoria con <u>inspirómetro incentivador</u> (unos 10 ejercicios a la hora, respetando el descanso nocturno)",
         "- Ejercicios de recuperación abdominal (tríptico entregado al ingreso) - con apoyo del personal de RHB.",
         "- Si se realiza COLOSTOMÍA/ILEOSTOMÍA: vigilancia e inicio de cuidados según protocolo",
