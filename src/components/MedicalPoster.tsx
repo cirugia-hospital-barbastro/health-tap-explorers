@@ -186,8 +186,10 @@ const MedicalPoster = () => {
     {
       title: "ESPLENECTOMÍA",
       content: [
-        "<b>ANTES DE LA INTERVENCIÓN:</b>",
-        "- Canalizar vía venosa en brazo izquierdo.",
+      "<b>ANTES DE LA INTERVENCIÓN:</b>",
+        "- Canalizar vía venosa:",
+        "<span style='margin-left: 2rem; display: block;'>* En CIRUGÍA ABIERTA, lado izquierdo.</span>",
+        "<span style='margin-left: 2rem; display: block;'>* En LAPAROSCOPIA, el lado es indiferente.</span>",
         "- Administración de <u>antibiótico</u> a la llamada de quirófano (según tratamiento prescrito).",
         "",
         "<b>POST-OPERATORIO:</b>",
