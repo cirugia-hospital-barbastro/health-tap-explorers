@@ -210,7 +210,7 @@ const MedicalPoster = () => {
         "- Administración de <u>antibiótico</u> a la llamada de quirófano (según tratamiento prescrito).",
         "",
         "<strong>POST-OPERATORIO:</strong>",
-        "- Control de <u>diuresis</u>. En GASTRECTOMIA, <u>control estricto diuresis cada 6 horas</u> con urimeter (puede estar indicada la administración de <u>sobrecargas</u> en función de la cantidad).",
+        "- Control de <u>diuresis</u>. En GASTRECTOMIA, <u>control estricto de diuresis cada 6 horas</u> con urimeter (puede estar indicada la administración de <u>sobrecargas</u> en función de la cantidad).",
         "- Fisioterapia respiratoria con <u>inspirómetro incentivador</u> (unos 10 ejercicios a la hora, respetando el descanso nocturno)",
         "- En caso de CIRUGÍA LAPAROSCÓPICA, la presencia de gases es habitual. Pueden provocar dolor irradiado hacia el hombro derecho, la mejor manera de disminuirlos es la incorporación y deambulación.",
         "- ⚠️ Una vez se inicie la tolerancia oral, la DIETA deberá ser siempre <u>FRACCIONADA</u> y semiblanda/triturada las primeras semanas postoperatorias. <u>Evitar la leche</u>.",
