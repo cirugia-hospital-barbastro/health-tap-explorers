@@ -130,6 +130,7 @@ const MedicalPoster = () => {
       ],
       icon: breastIcon,
       roundIcon: true,
+      largeIcon: true,
     },
     {
       title: "COLECISTECTOMÍA",
