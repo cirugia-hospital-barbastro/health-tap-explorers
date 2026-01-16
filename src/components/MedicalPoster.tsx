@@ -14,6 +14,7 @@ import spleenIcon from "@/assets/spleen-icon-new.png";
 import colonIcon from "@/assets/colon-icon-new.png";
 import anorectalIcon from "@/assets/anorectal-icon-new.png";
 import urpaIcon from "@/assets/urpa-icon.jpg";
+import saludAragonLogo from "@/assets/salud-aragon-logo.png";
 import {
   Accordion,
   AccordionContent,
@@ -300,6 +301,13 @@ const MedicalPoster = () => {
           <p className="text-base md:text-lg text-muted-foreground mt-4">
             Haz clic en cada sección para ver más información
           </p>
+          <div className="flex justify-center mt-6">
+            <img 
+              src={saludAragonLogo} 
+              alt="Salud - Servicio Aragonés de Salud - Barbastro" 
+              className="max-w-[200px] md:max-w-[280px] h-auto"
+            />
+          </div>
         </div>
 
         {/* Pre and Post Admission Sections */}
