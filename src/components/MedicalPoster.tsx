@@ -305,7 +305,7 @@ const MedicalPoster = () => {
             <img 
               src={saludAragonLogo} 
               alt="Salud - Servicio Aragonés de Salud - Barbastro" 
-              className="max-w-[200px] md:max-w-[280px] h-auto"
+              className="max-w-[150px] md:max-w-[200px] h-auto"
             />
           </div>
         </div>
