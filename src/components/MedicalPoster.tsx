@@ -67,7 +67,7 @@ const MedicalPoster = () => {
       "- Control de <strong>DRENAJES</strong> (cantidad, aspecto, conservación del vacío del receptal). Comprobar lo cuantificado en URPA.",
       "<span style='margin-left: 2rem; display: block;'>⚠️ Un líquido <u>bilioso</u>, espeso y de color verdoso o amarillo intenso puede indicar una FUGA BILIAR.</span>",
         "<span style='margin-left: 2rem; display: block;'>⚠️ Si el líquido es cada vez más <u>rojo</u> y más <u>productivo</u>, puede indicar HEMORRAGIA. Se debe avisar al CIR de guardia si...</span>",
-        "<span style='margin-left: 3rem; display: block;'>* > 200 cc de <u>sangre fresca</u> en las 2 horas tras vaciar el receptal en URPA.</span>",
+        "<span style='margin-left: 3rem; display: block;'>* > 200 cc de <u>sangre fresca</u> en las 2 horas siguientes tras vaciar el receptal en URPA.</span>",
         "<span style='margin-left: 3rem; display: block;'>* > 300 cc en las primeras 3 horas postIQ.</span>",
       "<span style='margin-left: 2rem; display: block;'>⚠️ Una secreción <u>purulenta</u> puede indicar INFECCION.</span>",
       "<span style='margin-left: 2rem; display: block;'>⚠️ Un contenido <u>fecaloideo</u> indica FUGA o PERFORACIÓN GASTROINTESTINAL.</span>",
