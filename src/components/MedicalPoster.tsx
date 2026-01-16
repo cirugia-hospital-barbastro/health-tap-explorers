@@ -298,9 +298,6 @@ const MedicalPoster = () => {
           <h2 className="text-2xl md:text-3xl font-bold" style={{ color: '#8B1538' }}>
             CIRUGÍA GENERAL Y DIGESTIVA del HOSPITAL DE BARBASTRO
           </h2>
-          <p className="text-base md:text-lg text-muted-foreground mt-4">
-            Haz clic en cada sección para ver más información
-          </p>
           <div className="flex justify-center mt-6">
             <img 
               src={saludAragonLogo} 
@@ -308,6 +305,9 @@ const MedicalPoster = () => {
               className="max-w-[150px] md:max-w-[200px] h-auto"
             />
           </div>
+          <p className="text-base md:text-lg text-muted-foreground mt-4">
+            Haz clic en cada sección para ver más información
+          </p>
         </div>
 
         {/* Pre and Post Admission Sections */}
