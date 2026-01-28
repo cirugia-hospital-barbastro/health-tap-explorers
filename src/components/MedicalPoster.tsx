@@ -207,7 +207,7 @@ const MedicalPoster = () => {
       content: [
         "<strong>ANTES DE LA INTERVENCIÓN:</strong>",
         "- Canalizar vía venosa. El lado donde canalizar la vía es indiferente.",
-        "- En GASTRECTOMÍA, colocación de <u>medias antitrombóticas elásticas</u>.",
+        "- En GASTRECTOMÍA, colocación de <u>medias antitrombóticas elásticas</u>. En caso de cirugía por NEOPLASIA MALIGNA, se colocarán <u>medias neumáticas</u>.",
         "- Administración de <u>antibiótico</u> a la llamada de quirófano (según tratamiento prescrito).",
         "",
         "<strong>POST-OPERATORIO:</strong>",
