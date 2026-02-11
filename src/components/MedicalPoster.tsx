@@ -51,7 +51,7 @@ const MedicalPoster = () => {
       "- Retirada de objetos metálicos, joyas, prótesis dentales, audífonos, piercings, sensores de glucemia, …",
       "- Retirada de maquillaje y esmalte de uñas.",
       "- Administrar <u>pre-medicación</u> si está indicado.",
-      "- El paciente será trasladado a la zona quirúrgica únicamente vestido con un camisón del hospital (no llevará ropa interior).",
+      "- El paciente será trasladado a la zona quirúrgica únicamente vestido con un camisón del hospital en caso de cirugía abdominal. En cirugía de mama y tiroides podrá llevar braga/calzoncillo.",
       "- Toma de constantes vitales (TA, FC, Sat O2, Tª y glucemia capilar en pacientes diabéticos) y registro en historia clínica.",
       "- <u>Canalizar vía venosa</u> (preferentemente 18G) según procedimiento con perfusión de <u>Isofundin® de mantenimiento</u>. <u>El lugar dependerá del tipo de intervención</u>.",
       "- Completar formulario <u>Check-list</u> quirúrgico.",
