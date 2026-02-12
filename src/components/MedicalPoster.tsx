@@ -123,7 +123,7 @@ const MedicalPoster = () => {
         "- Administración de <u>antibiótico</u> a la llamada de quirófano (según tratamiento prescrito).",
         "",
         "<strong>POST-OPERATORIO:</strong>",
-        "- Control de diuresis durante las primeras 24 horas.",
+        "- Control de diuresis.",
         "- La sutura cutánea adhesiva \"steri-strip\", se debe caer sola. Nunca debe tirar de ella.",
         "- Mantener el sujetador post-quirúrgico. Este ayuda a evitar seromas y a reducir el edema.",
         "- ⚠️ En LINFADENECTOMÍA, <u>no realizar acciones terapéuticas/diagnósticas en el brazo ipsilateral</u>. Se recomienda mantener el brazo apoyado y en alto mientras esté sentada y no dormir sobre él. Evitar objetos que compriman (anillos, pulseras, ropa ajustada).",
